@@ -262,6 +262,11 @@
             <version>5.0.0-RC1</version>
         </dependency>
 
+        <dependency>
+            <groupId>org.zeroturnaround</groupId>
+            <artifactId>zt-zip</artifactId>
+        </dependency>
+
     </dependencies>
 
 </project>

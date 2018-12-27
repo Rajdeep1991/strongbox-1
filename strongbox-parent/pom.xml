@@ -89,6 +89,7 @@
         <version.jtwig>5.87.0.RELEASE</version.jtwig>
         <version.jacoco>0.8.2</version.jacoco>
         <version.codacy.mvn.plugin>1.1.0</version.codacy.mvn.plugin>
+        <version.zt-zip>1.13</version.zt-zip>
         <!-- Version properties. -->
         <surefireArgLine/>
         <failsafeArgLine/>
@@ -1192,6 +1193,12 @@
                 <groupId>org.awaitility</groupId>
                 <artifactId>awaitility</artifactId>
                 <version>${version.awaitility}</version>
+            </dependency>
+            <dependency>
+                <groupId>org.zeroturnaround</groupId>
+                <artifactId>zt-zip</artifactId>
+                <version>${version.zt-zip}</version>
+                <type>jar</type>
             </dependency>
 
         </dependencies>

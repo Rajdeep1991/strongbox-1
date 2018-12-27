@@ -262,7 +262,7 @@ public class EmbeddedOrientDbServer
         return property;
     }
 
-    private String getDatabasePath()
+    public static String getDatabasePath()
     {
         return PropertiesBooter.getVaultDirectory() + "/db";
     }
